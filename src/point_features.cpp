@@ -64,9 +64,6 @@ int main(int argc, char *argv[])
             cv::waitKey();
         }
 
-    /* Central pixel */
-    //std::cout << "Central pixel is (" << image.cols/2 << "," << image.rows/2 << ")" << std::endl;
-
      /* Create a ROI (region of interest) inside the original image */
     roi = cv::Rect((image.cols/2)-150, (image.rows/2)-150, 150, 150);
     camSubimage = image(roi);
