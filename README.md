@@ -1,7 +1,7 @@
 # webcam_point_features
 Detection of ORB features from online webcam imges.
 
-Class that implements a descriptor for key points. It uses an algorithm for Detecion selecionar key points and features
+Class that implements a descriptor for key points. It uses an algorithm for Detecion key points and select the features.
 
 //ORB point feature detector
 cv::Ptr<cv::ORB> orb_detector = new cv::ORB(10);
