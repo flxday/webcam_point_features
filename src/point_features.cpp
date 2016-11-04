@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
     camSubimage = image(roi);
 
     /* Quick and easy transformation, just multiply the matrix */
-    camSubimage = camSubimage*5;
+    camSubimage = camSubimage;
                 
     //**************** Find ORB point fetaures and descriptors ****************************
         
